@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(nazarizal-mohammad-abqlAKDYxxA-unsplash.jpg);
+}
+#navbar{
+    display: flex;
+    height: 70px;
+    position:relative;
+    
+    
+
+}
+#logo{
+    height: 70px;
+    width: 100px;
+    margin-right: 400px;
+    border-radius: 80%;
+}
+ul{
+    display: flex;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    align-content: space-between;
+}
+ul a{
+    text-decoration: none;
+    margin-right: 28px;
+}
+#name{
+    text-shadow: 10ch;
+    text-emphasis-color: blue;
+    font-size: 3.3rem;
+    font-style: italic;
+    margin-right: 300px;
+}
+.top{
+    padding-left: 10%;
+    font-size: 3.0rem;
+    font-display: blue;
+}
+main{
+    display: flex;
+    margin-top: 2%;
+    justify-content: center;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    justify-content: space-between;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    justify-content: space-between;
+}
+.info{
+    margin-bottom: 15%;
+    width: 80%;
+    height: 12rem;
+}
+.img{
+    margin-bottom: 15%;
+    width: 80%;
+    height: 12rem;
+}
+
+
+#img1{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(footballimg/prmierfootball.jpg);
+    background-repeat: no-repeat;
+}
+#img2{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(footballimg/shuklafootball.jpg);
+    background-repeat: no-repeat;
+}

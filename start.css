@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url(nazarizal-mohammad-abqlAKDYxxA-unsplash.jpg);
+}
+#navbar{
+    display: flex;
+    height: 70px;
+    position:relative;
+    
+    
+
+}
+#logo{
+    height: 70px;
+    width: 100px;
+    margin-right: 400px;
+    border-radius: 80%;
+}

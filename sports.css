@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fsport&psig=AOvVaw03FqcRqRvlkr8TtAmpqF8r&ust=1718277637089000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNjan6T51YYDFQAAAAAdAAAAABAE");
+}
+#navbar{
+    display: flex;
+    height: 70px;
+    position:relative;
+    
+    
+
+}
+#logo{
+    height: 70px;
+    width: 100px;
+    margin-right: 400px;
+    border-radius: 80%;
+}
+ul{
+    display: flex;
+    margin-top: 25px ;
+    margin-bottom: 25px;
+    align-content: space-between;
+}
+ul a{
+    text-decoration: none;
+    margin-right: 28px;
+}
+#name{
+    text-shadow: 10ch;
+    text-emphasis-color: blue;
+    font-size: 3.3rem;
+    font-style: italic;
+    margin-right: 300px;
+}
+.top{
+    padding-left: 10%;
+    font-size: 3.0rem;
+    font-display: blue;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+    /* justify-content: center; */
+    align-items: center;
+}
+main div{
+    height: 200px;
+    width: 20rem;
+    margin-left: 5%;
+    margin-bottom: 25%;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 60%;
+    
+}
+.game1{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(cricket.webp);
+    background-repeat: no-repeat;
+
+    
+}
+.game2{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(football.jpg);
+    background-repeat: no-repeat;
+
+    
+}
+.game3{
+    justify-content: center;
+    background-size: cover;
+    background-image: url(badminton.jpg);
+    background-repeat: no-repeat;
+
+    
+}
